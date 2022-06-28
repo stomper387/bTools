@@ -1,9 +1,9 @@
 main: me.stomper.btools.Main
 name: btools
 description: lightweight admin tools
-version: 0.1
+version: 0.1.1-01
 author: stomper387
-api-version: 1.15
+api-version: 1.19
 website: www.github.com/stomper387/btools
 
 commands:
@@ -25,4 +25,5 @@ commands:
     description: Heal and Feed yourself.
   broadcast:
     description: Broadcast a message to the server.
- 
+  g:
+    description: Bless yourself.
