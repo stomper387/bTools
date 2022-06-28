@@ -26,3 +26,6 @@ heal - Makes your own or a selected players health and food set to max.
 echest - Opens an ender chest gui.
 
 g (gapple) - Gives yourself or a selected player 10 absorption hearts with 5 minutes of speed and resistance 2.
+
+# permissions
+Permissions names are always: btools.(command name) for example: btools.gapple / btools.gamemode / btools.fly
