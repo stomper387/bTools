@@ -14,14 +14,14 @@ public class gapple implements CommandExecutor {
 		if (label.equalsIgnoreCase("g")) {
 			Player player = (Player) sender;
 			if (!player.hasPermission("btools.gapple")) {
-				player.sendMessage(ChatColor.DARK_RED + "You do not have sufficient permissions");
+				player.sendMessage(ChatColor.DARK_RED + "You do not have the sufficient permissions");
 				return true;
 			}
 			if (args.length == 0) {
 				player.setHealth(20.0);
 				player.setFoodLevel(20);
 				player.setAbsorptionAmount(20);
-				player.setSaturation(20);
+				player.setSaturation(20);		 
 				player.addPotionEffect(new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 6000, 2));
 				player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 6000, 1));
 				player.sendMessage(ChatColor.GOLD + "You have been blessed.");

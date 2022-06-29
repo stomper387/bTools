@@ -14,14 +14,16 @@ public class broadcast implements CommandExecutor {
 			player.sendMessage(ChatColor.DARK_RED + "You do not have the sufficient permissions");
 			return true;
 		}
+				
 		if (label.equalsIgnoreCase("broadcast")) {
-			if (args.length == 1) {
-				Bukkit.broadcastMessage(ChatColor.DARK_RED + "[Broadcast] " + ChatColor.BOLD + args[0]);
-			}
+
 			if (args.length == 0) {
-				player.sendMessage(ChatColor.DARK_RED + "/broadcast <message>");
+				player.sendMessage(ChatColor.DARK_RED + "correct usage: /broadcast <message>");
+				return true;
+			} else {
+				Bukkit.broadcastMessage(ChatColor.DARK_RED + "[Broadcast] " + ChatColor.GOLD + ChatColor.BOLD + String.join(" ", args));
 			}
 		}
-		return false;
+		return true;
 	}
 }

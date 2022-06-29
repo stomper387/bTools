@@ -26,6 +26,7 @@ public class heal implements CommandExecutor {
 			if (args.length == 0) {
 				player.setHealth(20);
 				player.setFoodLevel(20);
+				player.setSaturation(20);	
 				player.sendMessage(ChatColor.DARK_GREEN + "You have been healed.");
 				return true;
 			}
@@ -38,6 +39,7 @@ public class heal implements CommandExecutor {
 					if(playerToHeal.getName().equalsIgnoreCase(args[0])) {
 						playerToHeal.setHealth(20.0);
 						playerToHeal.setFoodLevel(20);
+						playerToHeal.setSaturation(20);
 						playerToHeal.sendMessage(ChatColor.DARK_GREEN + "You have been healed by " + player.getName());
 						player.sendMessage(ChatColor.DARK_GREEN + playerToHeal.getName() + " was healed successfully");
 						playerFound = true;

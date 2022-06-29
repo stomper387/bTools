@@ -7,6 +7,7 @@ public class Main extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
+	this.getCommand("cleanup").setExecutor(new cleanup());
 	this.getCommand("heal").setExecutor(new heal()); 
 	this.getCommand("fly").setExecutor(new fly());
 	this.getCommand("kick").setExecutor(new kick());
@@ -19,3 +20,5 @@ public class Main extends JavaPlugin {
 	this.getCommand("g").setExecutor(new gapple());
 	}
 }
+
+//player.getInventory().setHelmet(new ItemStack(Material.GOLDEN_HELMET, 1));

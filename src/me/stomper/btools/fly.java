@@ -26,15 +26,15 @@ public class fly implements CommandExecutor{
 		
 		if (player.hasPermission("btools.fly")) {
 			if (player.isFlying()) {
-				player.setFlying(false);
-				player.setAllowFlight(false);
-				player.sendMessage(ChatColor.DARK_GREEN + "You are no longer flying.");
-				return true;
+					player.setFlying(false);
+					player.setAllowFlight(false);
+					player.sendMessage(ChatColor.DARK_GREEN + "You are no longer flying.");
+					return true;
 				} else {
-				player.setAllowFlight(true);
-				player.setFlying(true);
-				player.sendMessage(ChatColor.DARK_GREEN + "You are now flying.");
-				return true;
+					player.setAllowFlight(true);
+					player.setFlying(true);
+					player.sendMessage(ChatColor.DARK_GREEN + "You are now flying.");
+					return true;
 				}
 		}
 		return false;
