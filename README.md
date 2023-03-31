@@ -1,7 +1,7 @@
 # btools
 opensource admin plugin
 
-supported version: 1.19
+supported version: 1.19.4
 
 # spigot link
 https://www.spigotmc.org/resources/btools.79044/
