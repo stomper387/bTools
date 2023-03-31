@@ -31,13 +31,24 @@ cleanup - Sets the world weather to be clear and time to day.
 
 # permissions
 btools.ban
+
 btools.kick
+
 btools.broadcast
+
 btools.gamemode
+
 btools.gmc
+
 btools.gms
+
 btools.fly
+
 btools.heal
+
 btools.echest
+
 btools.gapple
+
 btools.cleanup
+
