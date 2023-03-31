@@ -30,4 +30,14 @@ g (gapple) - Gives yourself or a selected player 10 absorption hearts with 5 min
 cleanup - Sets the world weather to be clear and time to day.
 
 # permissions
-Permissions names are always: btools.(command name) for example: btools.gapple / btools.gamemode / btools.fly
+btools.ban
+btools.kick
+btools.broadcast
+btools.gamemode
+btools.gmc
+btools.gms
+btools.fly
+btools.heal
+btools.echest
+btools.gapple
+btools.cleanup
