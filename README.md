@@ -7,27 +7,29 @@ supported version: 1.19.4
 https://www.spigotmc.org/resources/btools.79044/
 
 # commands
-ban - Adds selected player to ban list.
+Ban
 
-kick - Kicks selected player.
+Kick
 
-broadcast - Broadcasts a chosen message to the server.
+Gamemode (gmc, gms)
 
-gamemode (1/2) - Changes your own or a select players gamemode between Survival and Creative.
+Fly
 
-gmc - A quick shortcut for gamemode creative.
+Day & Night (d,n)
 
-gms - A quick shortcut for gamemode survival.
+Broadcast
 
-fly - Toggles fly in survival/creative.
+seeinv
 
-heal - Makes your own or a selected players health and food set to max.
+echest (ec)
 
-echest - Opens an ender chest gui.
+Trash (t)
 
-g (gapple) - Gives yourself or a selected player 10 absorption hearts with 5 minutes of speed and resistance 2.
+Feed
 
-cleanup - Sets the world weather to be clear and time to day.
+Heal
+
+Gapple (g)
 
 # permissions
 btools.ban
@@ -38,17 +40,20 @@ btools.broadcast
 
 btools.gamemode
 
-btools.gmc
-
-btools.gms
-
 btools.fly
 
 btools.heal
 
-btools.echest
+btools.feed
 
 btools.gapple
 
-btools.cleanup
+btools.echest
 
+btools.day
+
+btools.night
+
+btools.seeinv
+
+btools.trash
