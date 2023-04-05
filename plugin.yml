@@ -1,0 +1,43 @@
+main: xyz.stomper387.btools.Main
+name: bTools
+description: opensource, lightweight and essential admin tools
+version: 1.0
+author: stomper387
+api-version: 1.19
+website: www.github.com/stomper387/btools
+
+
+
+commands:
+   kick:
+      description: Kicks the selected player.
+   ban:
+      description: Bans the selected player.
+   gamemode:
+      aliases: [gmc, gms]
+      description: Changes your or any players gamemode.
+   fly:
+      description: Start or stop flying.
+   day:
+      aliases: [d]
+      description: Sets the time to day and clears weather.
+   night:
+      aliases: [n]
+      description: Sets the time to night and clears weather.
+   broadcast:
+      description: Broadcast a chosen message to the whole server.
+   seeinv:
+      description: See a players inventory.
+   echest:
+      aliases: [ec]
+      description: Opens the players E-Chest.
+   trash:
+      aliases: [t]
+      description: Opens a 27 slot trash inventory.
+   feed:
+      description: Feeds a player.
+   heal:
+      description: Heals a player.
+   gapple:
+      aliases: [g]
+      description: Blesses a player.
