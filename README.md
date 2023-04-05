@@ -1,5 +1,5 @@
 # btools
-opensource admin plugin
+opensource, lightweight and essential admin tools
 
 supported version: 1.19.4
 
